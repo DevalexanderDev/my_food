@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Recipe, Ingredient, StepMaking, TypeEating, MenuOnDay
 
-# Register your models here.
+admin.site.register(Recipe)
+admin.site.register(Ingredient)
+admin.site.register(StepMaking)
+admin.site.register(TypeEating)
+admin.site.register(MenuOnDay)
